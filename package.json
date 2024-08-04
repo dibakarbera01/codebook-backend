@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "wrangler": "^3.68.0"
   },
   "devDependencies": {
     "json-server": "^0.17.0",

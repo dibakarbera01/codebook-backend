@@ -1,0 +1,11 @@
+name = "my-worker"
+type = "javascript"
+
+[site]
+bucket = "./dist" # Point this to your build output directory
+entry-point = "src"
+
+[env.production]
+zone_id = "your-zone-id"
+account_id = "your-account-id"
+route = "your-domain.com/*"
